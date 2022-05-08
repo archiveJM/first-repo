@@ -8,10 +8,12 @@
 # $ git add hello.py
 # $ git commit
 
-for x in range(20):
+for x in range(1,20+1):
     if x % 3 == 0 and x % 5 == 0 :
         print('yeardream')
     elif x % 3 == 0:
         print('year')
     elif x % 5 == 0:
         print('dream')
+    else:
+        print(x)
